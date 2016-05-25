@@ -1,0 +1,34 @@
+<Alloy>
+	
+	<Window id="store" onClose="closeWindow">
+		
+		<View class="storeList">
+
+			<View layout="horizontal" height="Ti.UI.SIZE">
+
+				<Button id="restoreProducts" onClick="restorePurchases"/>
+				<Button id="removeAdsBtn" onClick="removeAds"/>
+
+			</View>
+			
+				
+			<Label id="currentMoney" class="boldText" color="white" />
+				
+			<View id="separator"/>
+				
+			<Button id="changeTableBtn" clicked="false" onClick="changeTable"/>
+				
+			<View id="separator"/>
+
+			<View layout="composite">
+
+				<Require type="view" src="components/localStore" id="localStore"/>
+				<Require type="view" src="components/externalStore" id="externalStore"/>
+
+			</View>
+
+		</View>
+			
+	</Window>
+	
+</Alloy>

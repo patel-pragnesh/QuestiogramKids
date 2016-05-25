@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <script> 
+
+      Ti.App.addEventListener("setPosition", function(e) {
+        //Ti.API.info(JSON.stringify(e))
+        var position = e.position || {};
+        panorama.setPosition({lat: position.latitude, lng: position.longitude});
+
+        if (e.marker) {
+
+          var marker = e.marker;
+
+          var image = {
+            url: marker.image,
+            size: new google.maps.Size(60, 134),
+            origin: new google.maps.Point(0, 0),
+            anchor: new google.maps.Point(30, 134)
+          };
+
+          var bankMarker = new google.maps.Marker({
+            position: {lat: marker.latitude, lng: marker.longitude},
+            map: panorama,
+            icon: image,
+            title: 'Me'
+          });
+        
+        }
+
+      });
+
+    </script>
+    <meta charset="utf-8">
+    <title>Street View</title>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #street-view {
+        height: 100%;
+      }
+    </style>
+    
+  </head>
+  <body>
+    <div id="street-view"></div>
+    <script>
+
+      var panorama;
+
+      function initialize() {
+        panorama = new google.maps.StreetViewPanorama(
+          document.getElementById('street-view'),
+          {
+            position: {lat: 48.859793, lng: 2.289601},
+            pov: {heading: 165, pitch: 0},
+            zoom: 1,
+            addressControl: false
+        });
+      }
+
+
+
+    </script>
+    
+    <script async defer
+         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAe-yFzYTZBftwInCBsKo6J2S_8fK-LYA&signed_in=true&callback=initialize">
+    </script>
+  </body>
+</html>

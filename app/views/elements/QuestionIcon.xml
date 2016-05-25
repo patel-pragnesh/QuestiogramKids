@@ -1,0 +1,6 @@
+<Alloy>
+	<View id="questionIcon" top="Titanium.Platform.displayCaps.platformHeight*0.4" height="Titanium.Platform.displayCaps.platformHeight*0.1">
+		<ImageView id="timeBar" width="Titanium.Platform.displayCaps.platformWidth" class="timeBar"/>
+		<ImageView id="icon" height="Titanium.Platform.displayCaps.platformHeight*0.09"/>
+	</View>
+</Alloy>

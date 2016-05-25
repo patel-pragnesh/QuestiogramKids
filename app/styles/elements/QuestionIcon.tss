@@ -1,0 +1,15 @@
+"#questionIcon": {
+	backgroundColor: 'transparent',
+	width: Ti.UI.FILL,
+	opacity: 0
+},
+".timeBar": {
+	image:'elements/timeBar.png',
+	height: Ti.UI.FILL,
+	left: 0,
+	zIndex: 1,
+},
+"#icon": {
+	bubbleParent: 0,
+	zIndex: 2
+},

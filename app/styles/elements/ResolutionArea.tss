@@ -1,0 +1,123 @@
+"#resolutionAreaProxy": {
+	image:'elements/resolutionAreaBackground.png'
+}
+".visualSelectAnswer": {
+	
+	anchorPoint: {
+		x:0.5, 
+		y:0.5
+	},
+   // width: 350,
+   // height: 350,
+	//alpha:0
+},
+".baseCircle": {
+	image: 'dataQuestiograms/kids/baseCircle.png',
+	anchorPoint: {
+		x:0.5, 
+		y:0.5
+	},
+   // width: 350,
+   // height: 350,
+	//alpha:0
+},
+".backgroundCircle": {
+	followParentAlpha: false,
+	image: 'dataQuestiograms/kids/backgroundCircle.png',
+	//followParentAlpha: false,
+	anchorPoint: {
+		x:0.5, 
+		y:0.5
+	},
+   // width: 350,
+   // height: 350,
+	//alpha:0
+},
+".noSizeSelectAnswer": {
+	followParentAlpha: false,
+	anchorPoint: {
+		x:0.5, 
+		y:0.5
+	},
+	alpha:0
+},
+".boxSelectAnswer": {
+	followParentAlpha: false,
+	anchorPoint: {
+		x:0.5, 
+		y:0.5
+	},
+	alpha:0
+},
+".visualJoin": {
+	followParentAlpha: false,
+	anchorPoint: {
+		x:0.5, 
+		y:0.5
+	},
+	alpha:0,
+	z: 2
+},
+".lineJoin": {
+	image: 'elements/lineJoin.png',
+	height: 10,
+	width: 10,
+	anchorPoint: {
+		x:0, 
+		y:0
+	},
+	z:1
+},
+".textSelectAnswer": {
+	y:20,
+	width: 1000,
+	height: 110,
+	name: 'levelNumber',
+	fontFamily: 'DINCondensed-Bold',
+	fontSize: 125,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	r: 0.3,
+	g: 0.3, 
+	b: 0.3
+},
+".map": {
+    width: Titanium.Platform.displayCaps.platformWidth,
+    userLocation:false,
+    bubbleParent: true,
+    touchEnabled: false,
+    opacity: 0,
+    zIndex: 3
+},
+".mapContainer": {
+    width: Titanium.Platform.displayCaps.platformWidth,
+    userLocation:false,
+    zIndex: 2
+},
+".inputBox": {
+    width: 150,
+    height: 30,
+    borderWidth: 2,
+	borderColor: '#bbb',
+	borderRadius: 5,
+	color: '#888',
+	font: {fontSize:20, fontWeight:'bold'},
+	autocorrect: false,
+	returnKeyType: Ti.UI.RETURNKEY_GO,
+	textAlign: 'center',
+	value: '',
+	opacity: 0
+},
+"#cleanButtonProxy": {
+	image:'elements/cleanButton.png',
+	alwaysPropagateTouches: false,
+	followParentAlpha: false,
+	anchorPoint: {
+		x:0.5, 
+		y:0.5
+	},
+	alpha: 0,
+	x: 10, 
+	y: 10,
+	z: 2
+},
+

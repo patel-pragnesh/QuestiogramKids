@@ -1,0 +1,54 @@
+"#descriptionArea": {
+	backgroundColor: 'transparent',
+	width: Ti.UI.FILL,
+	top: 0
+},
+"#imageQuiz": {
+	//height: Ti.UI.FILL,
+	//width: Ti.UI.FILL,
+	image:'dataQuestiograms/kids/description_cow.png',
+	opacity: 0
+},
+"#videoPlayer": {
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	mediaControlStyle: Titanium.Media.VIDEO_CONTROL_NONE,
+	repeatMode: Titanium.Media.VIDEO_REPEAT_MODE_ONE,
+	autoplay: false,
+	opacity: 0,
+	backgroundColor:'transparent'
+},
+"#infoLbl": {
+	text:'',
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	left:20,
+	right: 20,
+	textAlign: 'center',
+	color: '#fff',
+	touchEnabled: false,
+	font: {
+		fontFamily: 'AppleSDGothicNeo-Bold',
+		fontSize: 40
+	}
+}
+"#mapView": {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    userLocation:false,
+    bubbleParent: true,
+    touchEnabled: false,
+    regionFit:true,
+    animate: true,
+    opacity: 0,
+    zIndex: 3
+},
+
+"#streetView": {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    opacity: 0,
+    zIndex: 3
+},
+
+ 

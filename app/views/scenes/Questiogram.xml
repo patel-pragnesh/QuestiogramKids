@@ -1,0 +1,14 @@
+<Alloy>
+	<Widget src="ti.game.scene" id="sceneProxy" onActivated="init" onCreated="loadScene">
+		<Require src="elements/Background" id="background"/>
+		<Require src="elements/ResolutionArea" id="resolutionArea"/>
+		<Require src="elements/MainItem" id="mainItem"/>
+	</Widget>
+	<!--HUD-->
+	<Widget src="ti.game.sprite" id="closeBtnProxy" />
+	<Widget src="ti.game.textSprite" id="scoreProxy" />
+	<Require src="elements/DescriptionArea" id="descriptionArea"/>	
+	<Require src="elements/QuestionIcon" id="questionIcon"/>
+	<Button id="closeButton" onClick="exitScene" />
+	<Label id="textIntroLbl"/>
+</Alloy>

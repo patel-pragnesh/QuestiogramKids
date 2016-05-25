@@ -1,0 +1,16 @@
+".container": {
+	backgroundColor:"#ff5c3c"
+}
+
+"#win":{
+	fullscreen: true,
+	navBarHidden: true
+}
+
+"#win[platform=android]":{
+	exitOnClose:true
+}
+
+"#scrollableView": {
+	backgroundColor: '#ff5c3c'
+}

@@ -1,0 +1,70 @@
+"#backgroundProxy":{
+	//image:'images/menubg.jpg',
+	x:0,
+	y:0,
+	name: 'background'
+},
+"#backgroundQuestionProxy":{
+	image:'dataQuestiograms/kids/background.png',
+	alpha:0,
+	followParentAlpha: false,
+	name: 'backgroundQuestion'
+},
+"#sun":{
+	image:'dataQuestiograms/kids/background/sun.png',
+	alpha:1,
+	followParentAlpha: false
+},
+"#boxShadow":{
+	image:'dataQuestiograms/kids/background/boxShadow.png',
+	alpha:0,
+	followParentAlpha: false,
+	anchorPoint: {
+		x:0.5, 
+		y:0.5
+	}
+},
+"#hills1":{
+	image:'dataQuestiograms/kids/background/hills1.png',
+	alpha:1,
+	followParentAlpha: false
+},
+"#hills2":{
+	image:'dataQuestiograms/kids/background/hills2.png',
+	alpha:1,
+	followParentAlpha: false
+},
+"#cloud1":{
+	image:'dataQuestiograms/kids/background/cloud01.png',
+	alpha:1,
+	followParentAlpha: false
+},
+"#cloud2":{
+	image:'dataQuestiograms/kids/background/cloud02.png',
+	alpha:1,
+	followParentAlpha: false
+},
+"#cloud3":{
+	image:'dataQuestiograms/kids/background/cloud03.png',
+	alpha:1,
+	followParentAlpha: false
+},
+"#base1":{
+	image:'dataQuestiograms/kids/background/ground.png',
+	alpha:1,
+	totalWidth: 2404,
+	visibleWidth: 2048,
+	followParentAlpha: false
+},
+"#base2":{
+	image:'dataQuestiograms/kids/background/ground.png',
+	alpha:1,
+	totalWidth: 2404,
+	visibleWidth: 2048,
+	followParentAlpha: false
+},
+"#particles":{
+	image:'dataQuestiograms/kids/particle.pex',
+	alpha:1,
+	followParentAlpha: false
+},

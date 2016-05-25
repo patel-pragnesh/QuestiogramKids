@@ -1,0 +1,15 @@
+<Alloy>
+	<Widget src="ti.game.sprite" id="backgroundProxy">
+		<Widget src="ti.game.sprite" id="backgroundQuestionProxy"/>
+		<Widget src="ti.game.sprite" id="sun"/>
+		<Widget src="ti.game.sprite" id="cloud1"/>
+		<Widget src="ti.game.sprite" id="cloud2"/>
+		<!--Widget src="ti.game.sprite" id="cloud3"/-->
+		<Widget src="ti.game.sprite" id="hills1"/>
+		<Widget src="ti.game.sprite" id="hills2"/>
+		<Widget src="ti.game.sprite" id="base1"/>
+		<Widget src="ti.game.sprite" id="base2"/>
+		<Widget src="ti.game.sprite" id="boxShadow"/>
+		<Widget src="ti.game.particle" id="particles"/>
+	</Widget>
+</Alloy>

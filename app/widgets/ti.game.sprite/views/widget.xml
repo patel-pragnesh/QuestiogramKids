@@ -1,0 +1,3 @@
+<Alloy>
+	<Module module="io.platino" method="createSprite" id="sprite"  />
+</Alloy>

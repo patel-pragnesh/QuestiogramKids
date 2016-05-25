@@ -1,0 +1,14 @@
+<Alloy>
+
+
+				
+		<TableView id="menuTable" dataCollection="externalStore" dataTransform="doTransform"  onClick='selectItem'> 
+
+			<Require src="components/externalRow"/>
+
+			<TableViewRow id="separator"/>
+		
+		</TableView>
+			
+
+</Alloy>

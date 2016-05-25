@@ -1,0 +1,20 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.5
+apiversion: 2
+architectures: armv7 arm64 i386 x86_64
+description: ALmixer OpenAL based audio module for Platino Game Engine
+author: Lanica, Inc.
+license: www.platino.io/eula
+copyright: Copyright (c) 2015 by Black Gate Games, LLC.
+platinobuildhash: 1234567890123456789012345678901234567890
+
+
+# these should not be edited
+name: ALmixerSwigJSCoreIOS
+moduleid: co.lanica.almixer
+guid: f7c42c94-8b08-4b92-948a-7c3f1f34fe64
+platform: iphone
+minsdk: 3.5.0.GA

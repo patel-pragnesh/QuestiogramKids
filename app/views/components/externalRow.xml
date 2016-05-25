@@ -1,0 +1,18 @@
+<Alloy>
+
+	<TableViewRow id="customRow" layout="horizontal" backgroundColor="{bgColor}" modelId="{ItemID}">
+				
+		<View id="icon" width="Ti.UI.SIZE" height="Ti.UI.SIZE" >
+			<ImageView id="rightIcon" image="{Image}"/>		
+		</View>
+		
+		<View id="specs" layout="vertical" height="Ti.UI.SIZE">	
+			<Label id="cost" text="{Cost}" />	
+			<TextArea id="name" class="boldText" value="{Name}"/>
+			<TextArea id="description" class="regularText" value="{Description}"/>	
+			<View backgroundColor="transparent" height="20"/>				
+		</View>
+				
+	</TableViewRow>	
+
+</Alloy>

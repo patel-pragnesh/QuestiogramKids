@@ -1,0 +1,103 @@
+    {
+    "global": {
+        "screenWidth": 2048,
+        "screenHeight": 1536,
+        "googleAnalyticsId" : "UA-63790556-2",
+        "analyticsDisabled" : false,
+        "userSettings": {
+            "id":0,
+            "userName":"",
+            "firstTimePlaying":false,
+            "adsActive":true,
+            "maxScore":0,
+            "currentMoney":3000,
+            "currentLevel":0,
+            "musicEnabled":true
+        },
+        "ads": {
+            "admobId": "ca-app-pub-7986525904351468/9234677036",
+            "revmobId": "555edba67f1d6123376cf09d",
+            "admobTestDevices": [
+                "9d7d86f8ced89fe777d6449cec82d5f8",
+                "156f9c0b050f2fdcbee423df3eae5909",
+                "GAD_SIMULATOR_ID"
+            ]
+        },
+        "sound": {
+            "frequency" : 22050, 
+            "numChannels" : 4, 
+            "files":
+            [
+                {
+                 "name": "success",
+                 "url": "success.mp3"
+                 },
+                 {
+                 "name": "fail",
+                 "url": "fail.mp3"
+                 }
+            ]
+        },
+        "textures" : {
+            "menu": "sprites/mainTexture.xml"
+
+        },
+        "urls" : {
+            "url" : "https://itunes.apple.com/us/app/square-lap/id941750689?l=es&ls=1&mt=8",
+            "shortenUrl": "goo.gl/Izgwex",
+            "jsonMaps" : "http://www.arei.es/jsonMaps/"
+        },
+        
+        "fonts":{
+        
+            "smallFont": {
+                "fontSize": 18,
+                "fontFamily": "CabinCondensed"
+            },
+            "regularFont": {
+                "fontSize": 20,
+                "fontFamily": "CabinCondensed"
+            },
+            "mediumFont": {
+                "fontSize": 24,
+                "fontFamily": "CabinCondensed-Medium"
+            },
+            "boldFont": {
+                "fontSize": 24,
+                "fontFamily": "CabinCondensed-Bold"
+            }
+        
+        },
+        "greenColor1": "#00b863",
+        "greenColor2": "#00a258",
+        "darkColor1": "#171717",
+        "darkColor2": "#292929",
+        "darkColor3": "#313131",
+        "darkColor4": "#3d3d3d",
+        
+        "lightColor1": "#e7e7e7",
+        "lightColor2": "#f7f7f7",
+        "lightColor3": "#dbdbdb",
+        
+        "redColor1": "#ff4c4c"
+    },
+    "env:development": {},
+    "env:test": {},
+    "env:production": {},
+    "os:android": {},
+    "os:blackberry": {},
+    "os:ios": {},
+    "os:mobileweb": {},
+    "dependencies": {
+        "ti.game.view": "1.0",
+        "ti.game.particle": "1.0",
+        "ti.game.sprite": "1.0",
+        "ti.game.scene": "1.0",
+        "ti.game.tileMap": "1.0",
+        "ti.game.spriteSheet": "1.0",
+        "ti.game.textSprite": "1.0",
+        "ti.game.mapSprite": "1.0",
+        "ti.game.scenePhysics": "1.0",
+        "ti.game.quickMenu": "1.0"
+    }
+}

@@ -1,0 +1,17 @@
+
+"#closeButton":{
+	backgroundImage:'elements/close.png',
+	top: 10, 
+	left: 10,
+	width: 30,
+	height: 30
+}
+"#scoreProxy":{
+	text:0,
+	width: 250,
+	height:170,
+	name: 'levelNumber',
+	fontFamily:"Oswald-Bold",
+	fontSize: 130,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_RIGHT
+},

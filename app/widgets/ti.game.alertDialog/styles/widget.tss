@@ -1,0 +1,116 @@
+"#win" : {
+	fullscreen:true
+},
+
+"#win[platform=android]" : {
+	backgroundColor:"transparent",
+	fullscreen:true,
+	modal:true, 
+	theme:"Theme.NoActionBar"
+},
+
+"#alertDialogWidget" : {
+
+	backgroundColor:'transparent',
+	bubbleParent:false,
+	opacity:1,
+	height:Ti.UI.FILL,
+	width:Ti.UI.FILL,
+	zIndex:9999
+
+},
+
+"#alertBox" : {
+
+	backgroundColor:'white',
+	borderRadius:4,
+	top:100,
+	bottom:100,
+	left:25,
+	right:25,
+	layout: 'vertical'
+
+
+},
+
+"#alertBox[formFactor=tablet]" : {
+
+	borderRadius:8,
+	top:150,
+	bottom:150,
+	left:80,
+	right:80
+
+
+},
+
+"#titleBox" : {
+
+	backgroundColor:Alloy.CFG.darkColor1,
+	height:'15%',
+	width:Ti.UI.FILL
+
+},
+
+"#messageBox" : {
+
+	backgroundColor:Alloy.CFG.lightColor1,
+	height:'70%',
+	width:Ti.UI.FILL
+
+},
+
+"#textTitle" : {
+
+	text:'This is the title',
+	backgroundColor:'transparent',
+	color:'white',
+	font : Alloy.CFG.boldFont
+
+},
+
+"#message" : {
+
+	text:'This is the message',
+	backgroundColor:'transparent',
+	color:'black',
+	font : Alloy.CFG.boldFont
+
+
+},
+
+"#buttonBox" : {
+
+	//layout:
+	backgroundColor:Alloy.CFG.darkColor3,
+	height:'15%',
+	width:Ti.UI.FILL,
+	layout:'horizontal'
+
+},
+
+".singleButton":{
+	top:5,
+	bottom:5,
+	borderRadius:2,
+	font : Alloy.CFG.fonts.boldFont,
+	color : '#ffffff',
+	backgroundColor:Alloy.CFG.greenColor1,
+	backgroundSelectedColor:'green'
+
+},
+
+".cancel":{
+
+	backgroundColor:Alloy.CFG.orangeColor1,
+	backgroundSelectedColor:'green'
+
+},
+
+".ok":{
+
+	backgroundColor:Alloy.CFG.greenColor1,
+	backgroundSelectedColor:'green'
+
+}
+

@@ -1,0 +1,19 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.2
+apiversion: 2
+description: Chipmunk2D Physics for Platino Game Engine
+author: Lanica, Inc
+license: www.lanica.co/eula
+copyright: Copyright (c) 2013 by Lanica, Inc
+platinobuildhash: 0520257a952353ce7785a201f5e7bc53233cb613
+
+
+# these should not be edited
+name: ChipmunkSwigV8Android
+moduleid: co.lanica.chipmunk2d
+guid: 136ed4a9-ab64-4fb9-a3e3-31978b182215
+platform: android
+minsdk: 3.1.1.GA

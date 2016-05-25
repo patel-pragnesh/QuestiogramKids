@@ -1,0 +1,116 @@
+
+".menuBtn":{
+	asset:Alloy.CFG.textures.menu,
+	z:1
+},
+
+
+".play":{
+
+	selectedFrame:'play',
+	name:'play',
+	type:'main',
+	//width:550,
+	//height:90
+	
+},
+
+".ranking":{
+
+	selectedFrame:'rankings',
+	name:'ranking',
+	type:'both',
+	//width:260,
+	//height:260
+	
+},
+
+".rate":{
+
+	selectedFrame:'rate',
+	type:'both',
+	name:'rate',
+	//width:260,
+	//height:260
+	
+},
+
+".store":{
+
+	selectedFrame:'store',
+	type:'main',
+	name:'store',
+	//width:260,
+	//height:260
+	
+},
+
+".localStore":{
+
+	selectedFrame:'localStore',
+	type:'main',
+	name:'localStore',
+	//width:260,
+	//height:260
+	
+},
+
+".removeAds":{
+
+	selectedFrame:'removeAds',
+	type:'main',
+	name:'removeAds',
+	//width:260,
+	//height:260
+	
+},
+
+".removeAdsFree":{
+
+	selectedFrame:'removeAdsFree',
+	type:'main',
+	name:'removeAdsFree',
+	//width:260,
+	//height:260
+	
+},
+
+".share":{
+
+	selectedFrame:'share',
+	type:'both',
+	name:'share',
+	//width:260,
+	//height:260
+	
+},
+
+".soundOff":{
+
+	selectedFrame:'soundOff',
+	type:'main',
+	name:'sound',
+	//width:260,
+	//height:260
+	
+},
+
+".repeat":{
+
+	selectedFrame:'repeat',
+	type:'result',
+	name:'repeat',
+	//width:260,
+	//height:260
+	
+},
+
+".home":{
+
+	selectedFrame:'home',
+	type:'result',
+	name:'home',
+	//width:260,
+	//height:260
+	
+},

@@ -1,0 +1,5 @@
+<Alloy>
+	<Widget src="ti.game.sprite" id="resolutionAreaProxy">
+		<Widget src="ti.game.sprite" id="cleanButtonProxy"/>
+	</Widget>
+</Alloy>

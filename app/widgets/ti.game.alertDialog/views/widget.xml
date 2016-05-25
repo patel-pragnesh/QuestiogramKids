@@ -1,0 +1,18 @@
+<Alloy>
+	<Window id="win">
+		<View id="alertDialogWidget">
+			<View id="alertBox">
+				<View id="titleBox">
+					<Label id="textTitle"/>			
+				</View>	
+
+				<ScrollView id="messageBox">					
+					<Label id="message"/>				
+				</ScrollView>	
+
+				<View id="buttonBox"/>	
+				
+			</View>
+		</View>
+</Window>
+</Alloy>

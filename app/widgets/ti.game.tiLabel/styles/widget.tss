@@ -1,0 +1,10 @@
+"Label": {
+	color: 'white',
+	font: {
+		fontSize: 58, 
+		fontFamily:Alloy.CFG.fonts.boldFont.fontFamily
+	},
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE
+}

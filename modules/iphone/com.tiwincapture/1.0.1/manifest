@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.1
+apiversion: 2
+architectures: armv7 arm64 i386 x86_64
+description: TiWindowCapture
+author: Javier Rayon - Criteria Studio
+license: Specify your license
+copyright: Copyright (c) 2015 by Your Company
+
+# these should not be edited
+name: TiWindowCapture
+moduleid: com.tiwincapture
+guid: 8b14a449-dd65-4d37-a944-b611250a131f
+platform: iphone
+minsdk: 3.5.1.GA

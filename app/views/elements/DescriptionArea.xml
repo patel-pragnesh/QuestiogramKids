@@ -1,0 +1,9 @@
+<Alloy>
+	<View id="descriptionArea" height="Titanium.Platform.displayCaps.platformHeight*0.4">
+		<Label id="infoLbl"/>
+		<ImageView id="imageQuiz"/>
+		<VideoPlayer id="videoPlayer" ns="Ti.Media" />
+		<View id="mapView" module="ti.map" mapType="ti.map.HYBRID_FLYOVER_TYPE" />
+		<WebView id="streetView" url="StreetViewWeb.html" />
+	</View>
+</Alloy>

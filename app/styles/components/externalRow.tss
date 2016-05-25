@@ -1,0 +1,77 @@
+
+"#customRow[formFactor=handheld]": {
+	height:Ti.UI.SIZE,
+	backgroundColor : Alloy.CFG.lightColor1,
+	backgroundSelectedColor : Alloy.CFG.lightColor2,
+},
+
+"#customRow[formFactor=tablet]": {
+	//height:60,
+	backgroundColor : Alloy.CFG.lightColor1,
+	backgroundSelectedColor : Alloy.CFG.lightColor2,
+},
+
+"#rightIcon": {
+	backgroundColor:"transparent",
+	image : '/images/store/itemPicture.png',
+	touchEnabled:"false",
+	width :70,
+	height : 70,
+	left : 0
+},
+
+"#cost" : {
+	color : Alloy.CFG.darkColor3,
+	//right:5,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_RIGHT,
+	font : Alloy.CFG.fonts.regularFont,
+	touchEnabled:"false",
+	width: '95%',
+	
+
+},
+
+"#cost[formFactor=tablet]": {
+	right:10,
+	font: {fontSize : 24,fontFamily : Alloy.CFG.fonts.regularFont.fontFamily},
+
+},
+
+".regularText" : {
+	color : Alloy.CFG.darkColor2,
+	backgroundColor:'transparent',
+	left:5,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	font : Alloy.CFG.fonts.regularFont,
+	touchEnabled:"false",
+	width: '95%',
+	editable:false
+	//verticalAlign: Ti.UI.TEXT_VERTICAL_ALIGNMENT_TOP
+	//height: Ti.UI.SIZE
+
+},
+
+".regularText[formFactor=tablet]": {
+
+	font: {fontSize : 24,fontFamily : Alloy.CFG.fonts.regularFont.fontFamily},
+
+},
+
+".boldText" : {
+	color : Alloy.CFG.darkColor1,
+	backgroundColor:'transparent',
+	left:5,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	font : Alloy.CFG.fonts.boldFont,
+	touchEnabled:"false",
+	editable:false,
+	width: '95%',
+	//verticalAlign: Ti.UI.TEXT_VERTICAL_ALIGNMENT_TOP
+
+},
+
+".boldText[formFactor=tablet]": {
+
+	font: {fontSize : 24,fontFamily : Alloy.CFG.fonts.boldFont.fontFamily},
+
+},

@@ -1,0 +1,12 @@
+"#mainItemProxy": {
+	image:'dataQuestiograms/kids/description_cow.png',
+	alpha: 0
+},
+"#boxEnigmaProxy": {
+	image:'dataQuestiograms/kids/boxEnigma.png',
+	followParentAlpha: false,
+	alpha: 0
+},
+"#plateFoodProxy": {
+	
+},

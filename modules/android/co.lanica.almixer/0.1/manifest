@@ -1,0 +1,20 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.1
+apiversion: 2
+description: ALmixer OpenAL based audio module for Platino Game Engine
+author: Lanica, Inc
+license: www.lanica.co/eula
+copyright: Copyright (c) 2013 by Lanica, Inc
+platinobuildhash: 1c7b36a2567c2b5c900d0cf1000e210f0f380218
+
+
+# these should not be edited
+name: ALmixerSwigV8Android
+moduleid: co.lanica.almixer
+guid: 9c63a752-1cc7-4502-acc7-0970c1873817
+platform: android
+minsdk: 3.1.3.GA
+commonjs: true

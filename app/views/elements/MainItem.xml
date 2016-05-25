@@ -1,0 +1,6 @@
+<Alloy>
+	<Widget src="ti.game.sprite" id="mainItemProxy">
+		<Widget src="ti.game.sprite" id="boxEnigmaProxy"/>
+		<!--Widget src="ti.game.spriteSheet" id="plateFoodProxy"/-->
+	</Widget>
+</Alloy>

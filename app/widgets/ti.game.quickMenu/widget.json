@@ -1,0 +1,13 @@
+{
+	"id": "ti.game.quickMenu",
+	"name": "ti.game.quickMenu",
+	"description" : "Allows you to develop fast menus for games. Available for iOS and Android, without any dependencie.",
+	"author": "Alejandro Rayón",
+	"version": "1.0",
+	"copyright":"Copyright (c) 2015",
+	"license":"Public Domain",
+	"min-alloy-version": "1.0",
+	"min-titanium-version":"2.1",
+	"tags":"",
+	"platforms":"android,ios"
+}

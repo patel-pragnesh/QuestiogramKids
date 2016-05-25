@@ -1,0 +1,20 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.5
+apiversion: 2
+architectures: armv7 arm64 i386 x86_64
+description: Chipmunk2D Physics for Platino Game Engine
+author: Lanica, Inc
+license: www.lanica.co/eula
+copyright: Copyright (c) 2013 by Lanica, Inc
+platinobuildhash: 1234567890123456789012345678901234567890
+
+
+# these should not be edited
+name: ChipmunkSwigJSCoreIOS
+moduleid: co.lanica.chipmunk2d
+guid: 457a92c2-0187-4c0c-86cc-4feab13e865e
+platform: iphone
+minsdk: 3.5.0.GA

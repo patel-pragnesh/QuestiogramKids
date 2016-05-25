@@ -1,0 +1,3 @@
+<Alloy>
+	<Module module="io.platino" method="createMapSprite" id="map"  />
+</Alloy>

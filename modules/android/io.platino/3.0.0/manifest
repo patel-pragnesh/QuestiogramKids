@@ -1,0 +1,22 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 3.0.0
+apiversion: 2
+description: Platino 2D Game Engine Module for Titanium Mobile
+author: Black Gate Games
+license: platino.io
+copyright: Copyright (c) 2015 by Black Gate Games
+platinobuildhash: 1234567890123456789012345678901234567890
+platinotrialmode: false
+platinoexpiredate: 1437048000
+architectures: armeabi;armeabi-v7a;x86
+
+# these should not be edited
+name: ioplatino
+moduleid: io.platino
+guid: 7fd7198c-e866-4355-949c-76931716508c
+platform: android
+minsdk: 3.5.1
+commonjs: true
